@@ -245,7 +245,7 @@ namespace Progetto_Statistics
             }
             label9.Text = "" + array9;
         }
-         public void altezza()
+        public void altezza()
         {
             List<string> listaPaesi = new List<string>();
             List<int> listaPaesi2 = new List<int>();
@@ -312,5 +312,14 @@ namespace Progetto_Statistics
             label12.Text = "" + array9;
         }
 
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
